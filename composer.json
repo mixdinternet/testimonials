@@ -1,0 +1,24 @@
+{
+    "name": "mixdinternet/testimonials",
+    "description": "Pacote depoimentos",
+    "keywords": ["laravel", "depoimentos"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Seiji Tamagawa",
+            "email": "carlos@mixd.com.br",
+            "homepage": "http://www.mixd.com.br/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.3.*"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Mixdinternet\\Testimonials\\": "src/"
+        }
+    }
+}
